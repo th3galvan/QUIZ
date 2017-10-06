@@ -41,7 +41,7 @@ final private int ids_answers[]={R.id.answer1, R.id.answer2,R.id.answer3,R.id.an
                 }
                 if (answer==correct_answer){
 
-                    Toast.makeText(QuizActivity.this, R.string.correct, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(QuizActivity.this,R.string.correct, R.string.correct, Toast.LENGTH_SHORT).show();
                 }
                 else{
                     Toast.makeText(QuizActivity.this, R.string.incorrect, Toast.LENGTH_SHORT).show();
